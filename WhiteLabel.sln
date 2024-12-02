@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "C:\Users\11086
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StdfReader", "StdfReader\StdfReader.csproj", "{1CA3E109-CC7B-442E-8327-A5B9405ECE8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastStdf", "C:\Users\11086717\Downloads\project-bolt-sb1-t189x1\project\src\FastStdf\FastStdf.csproj", "{07CBA16B-213A-4143-8131-26F42CB69D34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastStdf", "FastStdf\FastStdf.csproj", "{AF3B164F-B930-4D07-9B6D-C230182E67F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{1CA3E109-CC7B-442E-8327-A5B9405ECE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CA3E109-CC7B-442E-8327-A5B9405ECE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CA3E109-CC7B-442E-8327-A5B9405ECE8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07CBA16B-213A-4143-8131-26F42CB69D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07CBA16B-213A-4143-8131-26F42CB69D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07CBA16B-213A-4143-8131-26F42CB69D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07CBA16B-213A-4143-8131-26F42CB69D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3B164F-B930-4D07-9B6D-C230182E67F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3B164F-B930-4D07-9B6D-C230182E67F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3B164F-B930-4D07-9B6D-C230182E67F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3B164F-B930-4D07-9B6D-C230182E67F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

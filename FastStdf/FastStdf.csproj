@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PackageId>FastStdf</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Your Name</Authors>
+    <Description>High-performance STDF (Standard Test Data Format) reader library for .NET 8.0</Description>
+    <PackageTags>STDF;semiconductor;testing;performance</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Records\Mir.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Pipelines" Version="9.0.0" />
+    <PackageReference Include="System.Memory" Version="4.6.0" />
+  </ItemGroup>
+</Project>
