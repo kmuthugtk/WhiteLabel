@@ -1,0 +1,67 @@
+﻿<Window x:Class="WhiteLabel.STDF.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WhiteLabel.STDF"
+        mc:Ignorable="d"
+        Title="UTAC - STDF Server" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Source Path: "
+       HorizontalAlignment="Center"
+       VerticalAlignment="Center"
+       Grid.Column="0"
+       Grid.Row="0"/>
+        <TextBox x:Name="sourceText"
+           Grid.Row="0"
+           Grid.Column="1"
+           VerticalAlignment="Center"
+           HorizontalAlignment="Left"
+         VerticalContentAlignment="Center"
+           Width="300"
+           Height="50"/>
+
+        <Label Content="Destination Path: "
+       HorizontalAlignment="Center"
+       VerticalAlignment="Center"
+       Grid.Column="0"
+       Grid.Row="1"/>
+        <TextBox x:Name="destinationText"
+           Grid.Row="1"
+           Grid.Column="1"
+           VerticalAlignment="Center"
+           HorizontalAlignment="Left"
+         VerticalContentAlignment="Center"
+           Width="300"
+           Height="50"/>
+
+        <Button Grid.Row="2"
+        x:Name="startButton"
+        Grid.ColumnSpan="2"
+        Content="Start"
+        VerticalAlignment="Center"
+        HorizontalAlignment="Center"
+        Height="30"
+        Width="100"
+        Click="startButton_Click"/>
+
+        <RichTextBox Grid.Row="3"
+             Grid.ColumnSpan="2"
+             x:Name="statusText"
+             Width="Auto"
+             Height="Auto"
+             VerticalScrollBarVisibility="Visible"
+             Margin="0,10,0,0"/>
+    </Grid>
+</Window>
